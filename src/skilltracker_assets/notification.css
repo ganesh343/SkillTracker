@@ -1,0 +1,33 @@
+.notification_center{
+  display:flex;
+  float:right;
+}
+.noti_center{
+  width:50px;
+  text-decoration:none;
+}
+.notification_circle{
+     border-radius: 50%;
+  width:14px;
+  height: 14px;
+  padding: 5px;
+  background: #F9313D;
+  color: #ffffff;
+  text-align: center;
+  font-size:12px;
+  font-family:poppins;
+  z-index: 5;
+  transform:translate(-15px,-7px);
+}
+.notification_circle:hover{
+  color:white;
+  background-color:black;
+}
+.notification_center .inactive{
+  background-color: black;
+}
+#Component_65_1{background-color:red;}
+#Component_67_1{
+  color:red;
+
+}

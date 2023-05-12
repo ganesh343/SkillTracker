@@ -1,0 +1,958 @@
+/* CSS FOR SKILL_TRACKER */
+/* Login Page starts */
+h1 {
+  font-family: 'Poppins', sans-serif;
+}
+input[type='text']:focus {
+  outline: 1px solid #2c2c2c;
+  box-shadow: 0px 3px 4px #00000029;
+}
+input[type='text'] {
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+}
+.login_section {
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.login_container {
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.login_column {
+  width: 50%;
+  float: left;
+}
+.block_element {
+  background-color: #2c2c2c;
+  width: 428px;
+  margin-left: 60px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  height: 720px;
+  box-shadow: 0px 3px 6px #00000029;
+}
+.login_image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 347px;
+}
+.login_header {
+  font-weight: 400;
+  font-size: 32px;
+  width: 54%;
+  margin-top: 140px;
+  margin-bottom: 7px;
+}
+.login_password_header {
+  font-weight: 400;
+  font-size: 32px;
+  width: 70%;
+  margin-top: 140px;
+  margin-bottom: 7px;
+}
+.login_subhead {
+  font-size: 14px;
+  padding-bottom: 54px;
+  margin-left: 12px;
+  margin-top: 0;
+  color: #6f6f6f;
+
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+}
+.login_lable {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  padding-bottom: 9px;
+}
+.login_input {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #2c2c2c;
+  border-radius: 2px;
+  height: 40px;
+  margin-bottom: 36px;
+}
+.login_input_password {
+  background: #e0e0e0 0% 0% no-repeat padding-box;
+  border: none;
+  border-radius: 2px;
+  height: 40px;
+}
+.login_button {
+  color: white;
+  background: #2c2c2c 0% 0% no-repeat padding-box;
+  border: none;
+  border-radius: 2px;
+  height: 40px;
+}
+.login_forgot_password {
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  color: #2c2c2c;
+  padding-top: 13px;
+  padding-bottom: 32px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.login_return_link {
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  color: #2c2c2c;
+  padding-top: 13px;
+  padding-bottom: 32px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.login_return_link {
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  color: #2c2c2c;
+  padding-top: 13px;
+  padding-top: 32px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.form_container {
+  display: flex;
+  flex-direction: column;
+  width: 398px;
+}
+.error {
+  color: #f9313d;
+}
+/* Media queries for Login Page */
+@media screen and (max-width: 1030px) {
+  .login_column {
+    width: 100%;
+  }
+  .block_element {
+    margin: 0;
+    margin-left: 0;
+    width: 100%;
+    max-width: 100%;
+    height: 100px;
+  }
+  .login_image {
+    padding-top: 30px;
+  }
+  .login_header {
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 29px;
+    width: 73%;
+  }
+  .login_password_header {
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 29px;
+    width: 26%;
+  }
+  .form_container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .login_subhead {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .login_subhead {
+    width: 24%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .login_header {
+    font-size: 25px;
+    width: 66%;
+  }
+  .login_forgot_password {
+    width: 61%;
+  }
+}
+/* Login page ends */
+/* Navbar page  starts*/
+body {
+  margin: 0;
+}
+.profile_section {
+  width: 100%;
+}
+.Navbar_section {
+  width: 100%;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+}
+.navbar {
+  width: 100%;
+  margin-left: -1%;
+  /* padding-top: 2%; */
+  display: flex;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+}
+
+.navbar_title {
+  margin-right: auto;
+  font-size: 150%;
+  padding: 12px 16px;
+  color: #2c2c2c;
+  font-weight: 550;
+  padding: 25px;
+}
+
+.navicon_image {
+  margin-top: 7%;
+  width: 44px;
+  height: 42px;
+}
+
+.navicon_elementone {
+  margin-right: 3%;
+}
+/* IMPORTED FROM ASSESTS */
+.notification_center {
+  display: flex;
+  float: right;
+}
+.noti_center {
+  width: 33px;
+  text-decoration: none;
+}
+.notification_circle {
+  border-radius: 50%;
+  width: 14px;
+  height: 14px;
+  padding: 5px;
+  background: #f9313d;
+  color: #ffffff;
+  text-align: center;
+  font-size: 12px;
+  font-family: 'Poppins', sans-serif;
+  z-index: 5;
+  transform: translate(-15px, -7px);
+}
+.notification_circle:hover {
+  color: white;
+  background-color: #2c2c2c;
+}
+.notification_center .inactive {
+  background-color: #2c2c2c;
+}
+#Component_65_1 {
+  background-color: red;
+}
+#Component_67_1 {
+  color: red;
+}
+/* Notification box */
+
+.navbar_notification_box {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 6px;
+}
+.navbar_notification_title {
+  font-size: 150%;
+  padding: 12px 16px;
+  color: #2c2c2c;
+  font-weight: 550;
+  font-family: 'Poppins', sans-serif;
+  /* padding: 25px; */
+}
+.popup-notification-box {
+  width: 23%;
+  position: fixed;
+  top: 11%;
+  left: 76%;
+  background: #fbf9f9 0% 0% no-repeat padding-box;
+  /* background-color: #f0eaea; */
+  box-shadow: 0px 3px 6px #00000029;
+  border: 1px solid #f0f0f0;
+}
+
+.popup-notification-box .navbar {
+  color: white;
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+}
+
+.popup-notification-box table {
+  background-color: #eeecec;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.popup-notification-box table td {
+  /* border: 1px solid #f0f0f0; */
+  padding: 10px;
+  /* text-align: center; */
+}
+.Noti_button {
+  margin-left: -12%;
+  color: rgb(239 239 239);
+  transition: all 0.3s;
+  font-size: 12px;
+  line-height: 15px;
+  font-family: 'Poppins', sans-serif;
+  background: #2c2c2c 0% 0% no-repeat padding-box;
+  opacity: 1;
+  border-radius: 4px;
+  height: 31px;
+  width: 75px;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+
+.Noti_button:hover {
+  opacity: 1;
+  background-color: rgb(255, 252, 252);
+  color: #2c2c2c;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.notification_count {
+  margin-left: -7%;
+  /* margin-right: -11px; */
+  /* position: absolute; */
+  top: 80px;
+  left: 45px;
+  background-color: #2c2c2c;
+  color: #bdb8b8;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  font-weight: bold;
+}
+.peerreview_row {
+  display: flex;
+  padding: 4px;
+  flex-direction: row;
+}
+
+.peerreview_cell {
+  display: flex;
+  flex-direction: row;
+
+  color: #2c2c2c;
+  width: 78%;
+}
+
+.expiry_date {
+  display: block;
+  font-size: 13px;
+  line-height: 20px;
+
+  letter-spacing: 0px;
+  color: #959595;
+  opacity: 1;
+  font-family: 'Poppins', sans-serif;
+}
+
+.peerreviewer_name {
+  margin-left: 3%;
+}
+
+.user_item {
+  margin-top: 1%;
+  margin-left: 5px;
+}
+.peerreview_button {
+  margin-top: 1%;
+}
+
+.notification_container {
+  display: flex;
+  align-items: center;
+  height: 24px;
+}
+
+.notification_remainder {
+  font-size: 17px;
+  margin-left: 19px;
+  color: #2c2c2c;
+  text-decoration: none;
+  border-bottom: 3px solid #2c2c2c;
+  width: 15%;
+  height: 22px;
+}
+
+.peerreview_employeename {
+  letter-spacing: 0px;
+  color: #2c2c2c;
+  line-height: 27px;
+  opacity: 1;
+  font-size: 18px;
+  /* font-weight: 600; */
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+}
+/* Notification box ends */
+/*  NAVBAR ENDS */
+/* CSS FOR RANGE SLIDERS START */
+.range_value {
+  border-radius: 58%;
+  padding-top: 0px;
+  background: #fff;
+  border: 2px solid #2c2c2c;
+  color: #2c2c2c;
+  font-family: 'Poppins', sans-serif;
+  margin-top: -1%;
+  padding-left: 10px;
+  padding-right: 12px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.range_section {
+  display: flex;
+  place-items: stretch;
+  margin-top: 2%;
+  /* margin-left: -1%; */
+  margin-left: 2%;
+}
+.skill_range_one {
+  -webkit-appearance: none;
+  background-color: #ddd;
+  overflow: hidden;
+  /* margin-left: 15%; */ /* width: 347%; */
+  width: 281%;
+  margin-top: 1%;
+  border-radius: 18px;
+  margin-top: 2%;
+}
+.skill_range_one::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  background: white;
+  border-radius: 50%;
+  /* box-shadow: -205px 0 0 200px #2c2c2c; */
+  box-shadow: -330px 0 0 320px #2c2c2c;
+  cursor: pointer;
+  height: 14px;
+  width: 14px;
+  border: 1px solid #2c2c2c;
+  cursor: pointer;
+}
+.subskillvalue_name {
+  font-family: 'Poppins', sans-serif;
+  font-size: 13px;
+}
+/*  CSS FOR RANGESLIDERS ENDS*/ /* CSS FOR PROFILE PAGE STARTS */
+.profile_infomation {
+  display: flex;
+  margin-left: 6%;
+  align-items: stretch;
+  justify-content: center;
+}
+.profile_image {
+  width: 95px;
+  height: 99px;
+  margin-top: 1%;
+}
+.profile_description {
+  padding-left: 1%;
+}
+.profile_description_section {
+  margin-top: 1%;
+  justify-content: center;
+}
+.profile_name {
+  margin-top: 12%;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 0px;
+  color: #2c2c2c;
+  opacity: 1;
+  font-size: 25px;
+  line-height: 38px;
+}
+.profile_sub_header {
+  margin-top: -6%;
+  opacity: 1;
+  font-size: 15px;
+  line-height: 20px;
+  font-family: 'Poppins', sans-serif;
+  color: #6f6f6f;
+}
+.skill_section {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  margin-top: -4%;
+  margin-left: -10%;
+}
+.team_name {
+  opacity: 0.5;
+}
+.vertical_line {
+  border-left: 3px solid black;
+  height: 53px;
+  margin-top: 3%;
+  margin-left: 1%;
+}
+.team_section {
+  letter-spacing: 0px;
+  color: #2c2c2c;
+  opacity: 1;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  line-height: 27px;
+}
+.skillvalue_name {
+  color: #2c2c2c;
+  opacity: 1;
+  font-size: 18px;
+  line-height: 5px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+}
+.rangesliders_section {
+  margin-left: 2%;
+  margin-top: 6%;
+  width: 464px;
+}
+.skillrating_section {
+  margin-top: 1%;
+  margin-left: 4px;
+}
+.rangesliders_container {
+  /* width: 566px; */
+}
+.rangesliders {
+  margin-left: 32px;
+  margin-top: 1%;
+}
+.subskill_section {
+  display: flex;
+  place-items: stretch;
+  margin-top: 2%;
+  /* margin-left: -1%; */
+  margin-left: 2%;
+}
+.subskillslider {
+  margin-left: 6%;
+  margin-top: 1%;
+}
+.subskill_range_one {
+  -webkit-appearance: none;
+  background-color: #ddd;
+  overflow: hidden;
+  /* margin-left: 15%; */ /* width: 190%; */
+  width: 347%;
+  border-radius: 18px;
+  margin-top: 6%;
+}
+.subskill_range_one::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  background: white;
+  border-radius: 50%;
+  box-shadow: -205px 0 0 200px #2c2c2c;
+  cursor: pointer;
+  height: 14px;
+  width: 14px;
+  border: 1px solid #2c2c2c;
+  cursor: pointer;
+}
+.subskill_value {
+  border-radius: 58%;
+  padding-top: 0px;
+  background: #fff;
+  border: 2px solid #2c2c2c;
+  color: #2c2c2c;
+  font-family: 'Poppins', sans-serif;
+  margin-top: -1%;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.dropdown-header {
+  margin-top: 2%;
+  margin-left: 270%;
+  border-block: none;
+  background: none;
+  border-style: none;
+  color: #2c2c2c;
+}
+.button_container {
+  margin-left: 81.3px;
+}
+.profilerating_button {
+  width: 81.5%;
+  margin-left: 17%;
+  margin-top: 22px;
+  color: rgb(255, 255, 255);
+
+  transition: all 0.3s;
+  font-size: 12px;
+  font-family: 'Poppins', sans-serif;
+  background: #212121 0% 0% no-repeat padding-box;
+  border: 1px solid #2c2c2c;
+
+  height: 38px;
+  line-height: 18px;
+}
+.profilerating_button:hover {
+  opacity: 1;
+  background-color: rgb(255, 252, 252);
+  color: rgb(0, 0, 0);
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+/* CSS FOR PROFILE PAGE ENDS */ /* Peereview page starts */
+.peer_review_box {
+  /* width: 693px;  height: 195px; */
+  background: #e0e0e0 0% 0% no-repeat padding-box;
+  border-radius: 7px;
+  opacity: 1;
+  color: gray;
+  font-family: 'Poppins', sans-serif;
+  /* width: 70%; */
+}
+.peer_reviewer_information {
+  display: flex;
+  align-items: stretch;
+}
+.reviewer_name {
+  margin-left: 8%;
+  margin-top: 0%;
+  width: 128%;
+}
+p span {
+  display: block;
+}
+p span::before {
+  content: attr(data-text);
+}
+/* button class*/
+.review_button {
+  width: 63%;
+  height: 52%;
+}
+.review_button {
+  color: gray;
+  font-weight: bold;
+  border: 1px solid rgb(0, 5, 8);
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s;
+  font-size: 56.25%;
+  font-family: 'Poppins', sans-serif;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #2c2c2c;
+  opacity: 1;
+  /* padding: 7px 20px; */
+  padding: 7px 16px;
+}
+.review_button:hover {
+  opacity: 1;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
+/* peereview section */
+.peerreview_section {
+  margin-top: 4%;
+  display: flex;
+  align-items: stretch;
+  padding: 0px 100px;
+  padding-left: 60px;
+}
+.peerreview_information {
+  margin-left: 0%;
+  width: 30%;
+  /* float: left; */
+  color: #6f6f6f;
+  opacity: 1;
+  font-family: 'Poppins', sans-serif;
+}
+.peerreview_table {
+  width: 70%;
+  /* float: right; */
+  background: #e0e0e0 0% 0% no-repeat padding-box;
+  border-radius: 7px;
+  opacity: 1;
+  margin-right: 3%;
+}
+.peerreview_header {
+  font-size: 125%;
+  /* line-height: 187.50%; */
+  font-weight: 500;
+}
+.peerreview_description {
+  font-size: 75%;
+  line-height: 112.5%;
+}
+/* /* personal review section  */
+.personalreview_section {
+  margin-top: 4%;
+  display: flex;
+  align-items: stretch;
+  padding: 0px 100px;
+  padding-left: 60px;
+}
+.personalreview_information {
+  margin-left: 0%;
+  width: 30%;
+  /* float: left; */
+  color: #6f6f6f;
+  opacity: 1;
+  font-family: 'Poppins', sans-serif;
+}
+.personalreview_table {
+  width: 70%;
+  /* float: right; */
+  background: #e0e0e0 0% 0% no-repeat padding-box;
+  border-radius: 7px;
+  opacity: 1;
+  margin-right: 3%;
+}
+.personalreview_header {
+  font-size: 125%;
+  /* line-height: 187.50%; */
+  font-weight: 500;
+}
+.personalreview_description {
+  font-size: 75%;
+  line-height: 112.5%;
+}
+/* table peereveiew new version css */
+.review_row {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1%;
+}
+.review_row0 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1%;
+}
+.reviewer_name_col {
+  padding-left: 3%;
+  width: 35%;
+  height: 50px;
+  font-size: 75%;
+  line-height: 112.5%;
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+  height: 15px;
+  /* new one */
+  float: left;
+}
+.reviewer_name_col b {
+  color: rgb(5, 5, 5);
+  font-size: 122%;
+  line-height: 112.5%;
+  font-family: 'Poppins', sans-serif;
+}
+.review_date {
+  /* width: 20%; */
+  width: 25%;
+  height: 50px;
+  font-size: 75%;
+  /* line-height: 112.50%; */
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+}
+.review_score {
+  width: 25%;
+  /* width: 20%; */
+  height: 50px;
+  text-align: center;
+  font-size: 75%;
+  /* line-height: 112.50%; */
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+}
+.button_col {
+  width: 50%;
+  /* width: 25%; */
+  height: 50px;
+}
+/* CSS FOR PEERREVIEW PAGE ENDS */
+/* media quries */
+@media screen and (max-width: 720px) {
+  .profile_description_section {
+    margin-top: 3%;
+    margin-left: 1%;
+  }
+  .skill_section {
+    display: block;
+    margin-left: 5%;
+    margin-top: 0%;
+  }
+  .team_name {
+    margin: 0;
+  }
+  .team_title {
+    margin: 0;
+  }
+  .vertical_line {
+    border-left: none;
+  }
+  .skill_range_one {
+    width: 190%;
+  }
+  .rangesliders_section {
+    margin-top: -14%;
+  }
+  .profile_section {
+    /* width: 521px; */
+  }
+  .skillrating_section {
+    margin-left: -3%;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .reviewer_name_col {
+    float: none;
+  }
+  .review_row {
+    padding-top: 5%;
+    margin-right: -3%;
+  }
+  .review_date {
+    margin-left: 3%;
+  }
+}
+@media screen and (max-width: 640px) {
+  .reviewer_name_tag {
+    display: none;
+    margin: 0%;
+  }
+  .reviewer_date_tag {
+    display: none;
+    margin: 0%;
+  }
+  .reviewer_score_tag {
+    display: none;
+    margin: 0%;
+  }
+  .button_col {
+    margin-top: 9%;
+  }
+  .review_row {
+    padding-top: 7%;
+  }
+  .review_row0 {
+    display: none;
+  }
+  .review_col0 {
+    display: none;
+  }
+}
+@media screen and (min-width: 640px) {
+  .reviewer_title {
+    display: none;
+  }
+  .date_title {
+    display: none;
+  }
+  .score_title {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .peerreview_section {
+    margin-top: 0%;
+    display: block;
+    padding: 0px;
+    padding-left: 0px;
+  }
+  .peerreview_information {
+    width: auto;
+  }
+  .peerreview_table {
+    width: auto;
+    margin-right: 0%;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .subskill_range_one {
+    width: 210%;
+  }
+  .dropdown-header {
+    margin-left: 181%;
+  }
+  .profilerating_button {
+    max-width: 70%;
+    /* margin-left: 35%; */
+  }
+
+  .navbar {
+    /* width: 117%; */
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .navbar {
+    /* width: 84%; */
+    /* width: 104%; */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  /* .navbar {
+    width: 50%;
+  } */
+  .profile_section {
+    /* width: 424px; */
+  }
+  .profile_name {
+    font-size: 18px;
+  }
+  .profilerating_button {
+    max-width: 100%;
+    margin-left: 37%;
+  }
+  .rangesliders_section {
+    width: fit-content;
+  }
+  .profile_infomation {
+    margin-left: 4%;
+  }
+  .button_container {
+    /* width: 177%; */
+  }
+  .team_name {
+    opacity: 1;
+  }
+  .navicon_image {
+    margin-left: -15%;
+  }
+
+  .button_class {
+    width: 150%;
+    margin-left: -19%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .popup-notification-box {
+    left: 0;
+    width: 63%;
+  }
+}

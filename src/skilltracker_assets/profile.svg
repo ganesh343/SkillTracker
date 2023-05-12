@@ -1,0 +1,15 @@
+<svg id="Component_67_1" data-name="Component 67 – 1" xmlns="http://www.w3.org/2000/svg" width="87" height="87" viewBox="0 0 87 87">
+  <g id="Component_64_1" data-name="Component 64 – 1">
+    <g id="Group_1" data-name="Group 1" transform="translate(-499 -141)">
+      <circle id="Ellipse_146" data-name="Ellipse 146" cx="43.5" cy="43.5" r="43.5" transform="translate(499 141)" fill="#2c2c2c"/>
+      <path id="Icon_open-person" data-name="Icon open-person" d="M18,0C13.05,0,9,5.04,9,11.25S13.05,22.5,18,22.5s9-5.04,9-11.25S22.95,0,18,0ZM8.6,22.5a9.009,9.009,0,0,0-8.6,9V36H36V31.5a8.978,8.978,0,0,0-8.6-9A12.638,12.638,0,0,1,18,27,12.638,12.638,0,0,1,8.6,22.5Z" transform="translate(524 167)" fill="#fff"/>
+    </g>
+    <g id="Component_63_1" data-name="Component 63 – 1" transform="translate(64 69)">
+      <g id="Ellipse_136" data-name="Ellipse 136" fill="#fff" stroke="#2c2c2c" stroke-width="1">
+        <circle cx="9" cy="9" r="9" stroke="none"/>
+        <circle cx="9" cy="9" r="8.5" fill="none"/>
+      </g>
+      <path id="Icon_awesome-user-edit" data-name="Icon awesome-user-edit" d="M3.5,4.329a2.087,2.087,0,0,0,2-2.164A2.087,2.087,0,0,0,3.5,0a2.087,2.087,0,0,0-2,2.164A2.087,2.087,0,0,0,3.5,4.329Zm1.4.541H4.639a2.533,2.533,0,0,1-2.278,0H2.1A2.192,2.192,0,0,0,0,7.143v.7a.783.783,0,0,0,.75.812H5.045A.874.874,0,0,1,5,8.3l.106-1.03.019-.188.123-.134L6.46,5.639A2.016,2.016,0,0,0,4.9,4.87Zm.708,2.457L5.5,8.359a.259.259,0,0,0,.275.3l.951-.115L8.882,6.209,7.762,5,5.607,7.327ZM9.89,4.547,9.3,3.906a.355.355,0,0,0-.528,0l-.591.639-.064.069L9.237,5.827,9.89,5.12a.431.431,0,0,0,0-.573Z" transform="translate(4 4.671)" fill="#2c2c2c"/>
+    </g>
+  </g>
+</svg>
