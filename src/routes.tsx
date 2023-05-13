@@ -19,6 +19,7 @@ import Notificationbox from './components/common/Notificationbox';
 import Forgotpassword from './pages/auth/Forgotpassword';
 import { HashRouter as Router } from "react-router-dom";
 
+
 const AppRoutes = createBrowserRouter(
   createRoutesFromElements(
     <Route element={<AuthLayout />}>
