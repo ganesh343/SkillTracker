@@ -23,7 +23,7 @@ export interface notification {
   expDate: string;
 }
 
-const Notificationbox = ({ size, raterId }: PopupNotificationBoxProps) => {
+const Notificationbox = ({ size }: PopupNotificationBoxProps) => {
   const NotificationData = NotificationDetails();
   const [peerreview] = useState(NotificationData.notification);
 

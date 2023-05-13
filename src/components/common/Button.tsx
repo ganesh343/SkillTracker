@@ -1,3 +1,4 @@
+import React from 'react';
 type ButtonProps = {
   className: string;
   type?: 'button' | 'submit' | 'reset';
@@ -14,7 +15,7 @@ const Button = ({ className, type = 'button', onClick, text }: ButtonProps) => {
   };
   return (
     <div className="">
-      <button className={className} type={type} onClick={onClick}>
+      <button className={className} type={type} onClick={handleClick}>
         {text}
       </button>
     </div>

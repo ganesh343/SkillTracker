@@ -16,15 +16,16 @@ export const Peerreviewtest = () => {
   useEffect(() => {
     const tempReview: ReviewInterface[] = [
       {
-        header: 'Peer Reviews',
+        header: 'Peer Reviews',   
         description: 'When assigned, please give each peer a fair and Honest Rating',
-        componentName: <Peerreviewbox />
+        componentName: <Peerreviewbox />,
       },
       {
         header: 'Personal Reviews',
-        description: 'This is where you can view any reviews done On your skills..',
-        componentName: <Personalreviewbox />
-      }
+        description:
+          'This is where you can view any reviews done On your skills..',
+        componentName: <Personalreviewbox />,
+      },
     ];
     setReviews(tempReview);
   }, []);
@@ -33,11 +34,11 @@ export const Peerreviewtest = () => {
       <div className="Navbar_section">
         <NavBar title="Peer Reviews" raterId={0} />
       </div>
-      {reviews.map((review: ReviewInterface) => {
+      {reviews.map((review: ReviewInterface, index: number) => {
         return (
-          <div className="peerreview_section">
+          <div className="peerreview_section" key={index}>
             <div className="peerreview_information">
-              <h3 className="peerreview_header"> {review.header}</h3>
+              <h3 className="peerreview_header">{review.header}</h3>
               <p className="peerreview_description">{review.description}</p>
             </div>
             <div className="peerreview_table">{review.componentName}</div>

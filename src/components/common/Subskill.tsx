@@ -1,5 +1,5 @@
-import { FC } from 'react';
-import { render, fireEvent, screen } from '@testing-library/react';
+//import { FC } from 'react';
+//import { render, fireEvent, screen } from '@testing-library/react';
 // import employeeDetails from '../../MockDataskills';
 interface SubSkillProps {
   arrayObjects: {
