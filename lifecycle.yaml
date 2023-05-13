@@ -1,0 +1,19 @@
+version: v1alpha1
+web:
+    build:
+        type: Dockerfile
+        dockerfile:
+            contents: |
+                FROM node:16 as build
+                WORKDIR /app
+                COPY package.json yarn.lock ./
+                RUN yarn
+                COPY . .
+                RUN yarn build
+        build_args: []
+    output:
+        type: static
+        static:
+            path: /app/build
+    proxy:
+        rules: []
